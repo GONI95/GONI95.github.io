@@ -61,12 +61,13 @@ figcaption {
 
 header {
 	// background-size: cover;
-	padding: 120px 0;
+	padding-top: 5%;
+	padding-bottom: 2%;
 	color: #fff;
 	overflow: hidden;
 	h2 {
 		font-weight: normal;
-		margin-top: 5px;
+		margin-top: 1%;
 	}
 	h1 {
 		margin: 0;
@@ -76,7 +77,6 @@ header {
 		overflow: hidden;
 		list-style-type: none;
 		padding: 0;
-		margin-top: 0;
 		li {
 			color: #fff;
 			float: left;
@@ -92,6 +92,39 @@ header {
 			}
 		}
 	}
+
+	.box {
+		margin-left: 2%;
+		width: 200px;
+		height: 200px; 
+		border-radius: 70%;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.profile {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.about {
+		margin-top: 7%;
+	}
+
+}
+
+footer {
+	// background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #fff;
+	overflow: hidden;
+	h2 {
+		font-weight: normal;
+		margin-top: 1%;
+	}
+	h1 {
+		margin: 0;
+	}
 }
 
 .clearfix {
@@ -103,7 +136,7 @@ header {
 //
 .container {
 	margin:0 150px;
-	max-width: 720px;
+	//max-width: 720px;
 
 	div.highlighter-rouge {
 		right: 150px;
@@ -197,15 +230,20 @@ header {
 	padding: 0;
 	>li {
 		margin-bottom: 30px;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 		&:not(:last-child) {
-			border-bottom: 1px solid $lightGray;
+			border-bottom: 1px solid $gray;
 		}
 	}
 }
 
 .posts, .post-container {
 	margin-top: 40px;
+
+	img {
+		margin-top: 3%;
+		margin-right: 3%;
+	}
 }
 
 .post-meta {
@@ -222,6 +260,11 @@ header {
 		margin: 20px 0;
 	}
 }
+
+nav {
+	margin-top: 3%;
+	float: right;
+  }
 
 .navbar {
 	display: flex;

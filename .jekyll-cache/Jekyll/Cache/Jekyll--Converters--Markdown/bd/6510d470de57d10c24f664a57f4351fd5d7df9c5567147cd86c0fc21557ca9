@@ -1,0 +1,38 @@
+I"�
+<p>안녕하세요 이상곤 입니다. 소개할 포트폴리오는 치즈투두 입니다.</p>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<h1 id="papago">Papago</h1>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="py">a</span> <span class="p">=</span> <span class="mi">1</span>
+<span class="kd">val</span> <span class="py">b</span> <span class="p">=</span> <span class="mi">2</span>
+
+<span class="k">for</span><span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="mi">0</span> <span class="n">until</span> <span class="n">b</span> <span class="p">+</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nf">println</span><span class="p">(</span><span class="s">"$i"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="주요-기능">주요 기능</h2>
+
+<p>Naver Papago API (번역기)</p>
+
+<p>OkHttp (파파고 api 서비스와 통신)</p>
+
+<p>TextWatcher (글자 수 출력)</p>
+
+<p>Google Mic (음성입력 시 Text로 변환)</p>
+
+<h2 id="run">Run</h2>
+
+<p><img src="https://user-images.githubusercontent.com/68982398/97100902-efb1fc00-16db-11eb-9f80-ab73f9fced7f.jpg" alt="KakaoTalk_20201025_155235713" />
+<img src="https://user-images.githubusercontent.com/68982398/97100918-0c4e3400-16dc-11eb-85d0-daa703967f2d.jpg" alt="KakaoTalk_20201025_155235393" />
+<img src="https://user-images.githubusercontent.com/68982398/97100919-0eb08e00-16dc-11eb-925c-5c4750bb408f.jpg" alt="KakaoTalk_20201025_155235122" />
+<img src="https://user-images.githubusercontent.com/68982398/97100920-107a5180-16dc-11eb-895f-702c3ba33502.jpg" alt="KakaoTalk_20201025_155234833" />
+<img src="https://user-images.githubusercontent.com/68982398/97100921-11ab7e80-16dc-11eb-9b04-fec93a73f4f5.jpg" alt="KakaoTalk_20201025_155234501" />
+<img src="https://user-images.githubusercontent.com/68982398/97100923-13754200-16dc-11eb-917b-a102e4e6af8f.jpg" alt="KakaoTalk_20201025_155234162" />
+<img src="https://user-images.githubusercontent.com/68982398/97100924-140dd880-16dc-11eb-8206-2519242db7fd.jpg" alt="KakaoTalk_20201025_155233804" />
+<img src="https://user-images.githubusercontent.com/68982398/97100925-15d79c00-16dc-11eb-9a92-b596bfc1e9ee.jpg" alt="KakaoTalk_20201025_155233430" /></p>
+
+<!-- 사진 url 변수 -->
+:ET

@@ -14,6 +14,12 @@ layout: page
 		</div>
 		<div class="post">
 			{%- if site.show_excerpts -%}
+			{{# post.imgtag }}
+			{{ . }}
+		  	{{/post.imgtag }}
+			{%- endif -%}
+
+			{%- if site.show_excerpts -%}
 			{{ post.excerpt }}
 			{%- endif -%}
 		</div>
@@ -21,4 +27,3 @@ layout: page
 	{%- endfor -%}
 </ul>
 {%- endif -%}
-
